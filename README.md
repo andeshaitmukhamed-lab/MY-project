@@ -1,3 +1,3 @@
 # MY-project
-GitHub test
-Автоматты GitHub тесті
+GitHub test;
+Автоматты GitHub тесті;
