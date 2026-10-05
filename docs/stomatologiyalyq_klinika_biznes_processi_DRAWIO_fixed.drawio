@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-09-21T12:45:00.000Z" agent="Mozilla/5.0" version="24.7.17">
+<diagram id="dental-process" name="Стоматологиялық клиника бизнес-процесі">
+<mxGraphModel dx="1420" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1420" pageHeight="730" math="0" shadow="0">
+<root>
+<mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="a18" value="<b>1.8 Ақпараттық қамтамасыз ету</b><br><br>Орындаушы: әкімші" style="fillColor=#e8f2df;strokeColor=#3d5575;strokeWidth=1.5;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+<mxGeometry x="257" y="50" width="305" height="68" as="geometry"/>
+</mxCell><mxCell id="a16" value="<b>1.6 Стерилизация,<br>санитарлық режим</b>" style="fillColor=#e8f2df;strokeColor=#3d5575;strokeWidth=1.5;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+<mxGeometry x="949" y="50" width="200" height="68" as="geometry"/>
+</mxCell><mxCell id="a17" value="<b>1.7 Материалдармен<br>қамтамасыз ету</b>" style="fillColor=#e8f2df;strokeColor=#3d5575;strokeWidth=1.5;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+<mxGeometry x="1166" y="50" width="200" height="68" as="geometry"/>
+</mxCell><mxCell id="p11t" value="<b>1.1 Жазылу</b>" style="fillColor=#e8f2df;strokeColor=#3d5575;strokeWidth=1.5;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+<mxGeometry x="279" y="204" width="260" height="74" as="geometry"/>
+</mxCell><mxCell id="p11e" value="Орындаушы: әкімші" style="fillColor=#dceaf7;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="279" y="278" width="260" height="36" as="geometry"/>
+</mxCell><mxCell id="p11c" value="Құрал: телефон, мессенджер, Excel" style="fillColor=#f9e3d4;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="279" y="314" width="260" height="37" as="geometry"/>
+</mxCell><mxCell id="p12t" value="<b>1.2 Қабылдау және<br>диагностика</b>" style="fillColor=#e8f2df;strokeColor=#3d5575;strokeWidth=1.5;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+<mxGeometry x="659" y="204" width="260" height="74" as="geometry"/>
+</mxCell><mxCell id="p12e" value="Орындаушы: дәрігер, техник" style="fillColor=#dceaf7;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="659" y="278" width="260" height="36" as="geometry"/>
+</mxCell><mxCell id="p12c" value="Құрал: кресло, рентген, камера" style="fillColor=#f9e3d4;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="659" y="314" width="260" height="37" as="geometry"/>
+</mxCell><mxCell id="p13t" value="<b>1.3 Емдеу</b>" style="fillColor=#e8f2df;strokeColor=#3d5575;strokeWidth=1.5;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+<mxGeometry x="1040" y="204" width="260" height="74" as="geometry"/>
+</mxCell><mxCell id="p13e" value="Орындаушы: дәрігер, ассистент" style="fillColor=#dceaf7;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="1040" y="278" width="260" height="36" as="geometry"/>
+</mxCell><mxCell id="p13c" value="Құрал: кресло, бұрғы, шам" style="fillColor=#f9e3d4;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="1040" y="314" width="260" height="37" as="geometry"/>
+</mxCell><mxCell id="p14t" value="<b>1.4 Есеп айырысу</b>" style="fillColor=#e8f2df;strokeColor=#3d5575;strokeWidth=1.5;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+<mxGeometry x="659" y="487" width="260" height="74" as="geometry"/>
+</mxCell><mxCell id="p14e" value="Орындаушы: әкімші, бухгалтер" style="fillColor=#dceaf7;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="659" y="561" width="260" height="36" as="geometry"/>
+</mxCell><mxCell id="p14c" value="Құрал: POS-терминал, есеп жүйесі" style="fillColor=#f9e3d4;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="659" y="597" width="260" height="37" as="geometry"/>
+</mxCell><mxCell id="p15t" value="<b>1.5 Бақылау және<br>қайта келу</b>" style="fillColor=#e8f2df;strokeColor=#3d5575;strokeWidth=1.5;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+<mxGeometry x="279" y="487" width="260" height="74" as="geometry"/>
+</mxCell><mxCell id="p15e" value="Орындаушы: әкімші, дәрігер" style="fillColor=#dceaf7;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="279" y="561" width="260" height="36" as="geometry"/>
+</mxCell><mxCell id="p15c" value="Құрал: телефон, мессенджер" style="fillColor=#f9e3d4;strokeColor=#3d5575;strokeWidth=1.2;rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="279" y="597" width="260" height="37" as="geometry"/>
+</mxCell><mxCell id="act1" value="Пациент" style="shape=umlActor;html=1;verticalAlign=bottom;align=center;fillColor=none;strokeColor=#3d5575;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+<mxGeometry x="62" y="210" width="70" height="112" as="geometry"/>
+</mxCell><mxCell id="act2" value="Пациент" style="shape=umlActor;html=1;verticalAlign=bottom;align=center;fillColor=none;strokeColor=#3d5575;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+<mxGeometry x="62" y="494" width="70" height="112" as="geometry"/>
+</mxCell><mxCell id="act3" value="Пациент" style="shape=umlActor;html=1;verticalAlign=bottom;align=center;fillColor=none;strokeColor=#3d5575;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+<mxGeometry x="1135" y="494" width="70" height="112" as="geometry"/>
+</mxCell><mxCell id="l1" value="Өтінім" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="175" y="238" width="70" height="25" as="geometry"/>
+</mxCell><mxCell id="l2" value="Қабылдау<br>талоны" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="550" y="226" width="105" height="42" as="geometry"/>
+</mxCell><mxCell id="l3" value="Диагноз,<br>емдеу жоспары" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="915" y="225" width="125" height="42" as="geometry"/>
+</mxCell><mxCell id="l4" value="Орындалған<br>қызметтер тізімі" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="980" y="405" width="150" height="45" as="geometry"/>
+</mxCell><mxCell id="l5" value="Аяқталған<br>қызмет деректері" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="548" y="510" width="110" height="45" as="geometry"/>
+</mxCell><mxCell id="l6" value="Еске салу,<br>шақыру" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="160" y="467" width="110" height="42" as="geometry"/>
+</mxCell><mxCell id="l7" value="Кері<br>байланыс" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="165" y="603" width="90" height="42" as="geometry"/>
+</mxCell><mxCell id="l8" value="Төлем" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="1000" y="490" width="75" height="25" as="geometry"/>
+</mxCell><mxCell id="l9" value="Чек, шот" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="1000" y="600" width="85" height="25" as="geometry"/>
+</mxCell><mxCell id="l10" value="Дәрігерлер кестесі,<br>пациент деректері" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="415" y="137" width="165" height="48" as="geometry"/>
+</mxCell><mxCell id="l11" value="Стерильді<br>құралдар" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="960" y="140" width="110" height="42" as="geometry"/>
+</mxCell><mxCell id="l12" value="Материалдар,<br>анестетиктер" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#222222;" vertex="1" parent="1">
+<mxGeometry x="1150" y="140" width="125" height="42" as="geometry"/>
+</mxCell><mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="act1" target="p11t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="p11t" target="p12t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="p12t" target="p13t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="p13t" target="p14t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="p14t" target="p15t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="p15t" target="act2">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="act2" target="p15t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="act3" target="p14t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="p14t" target="act3">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="a18" target="p11t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="a16" target="p13t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell><mxCell id="e12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#245789;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="a17" target="p13t">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>

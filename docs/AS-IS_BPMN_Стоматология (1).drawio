@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="asis-bpmn" name="AS-IS BPMN">
+    <mxGraphModel dx="1585" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pool" parent="1" style="swimlane;html=1;horizontal=0;startSize=38;whiteSpace=wrap;fillColor=#D5DCE6;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#000000;collapsible=0;" value="Стоматологиялық клиника" vertex="1">
+          <mxGeometry height="799" width="1432" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lane1" parent="pool" style="swimlane;html=1;horizontal=0;startSize=45;whiteSpace=wrap;fillColor=#EEF1F5;swimlaneFillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;fontColor=#000000;collapsible=0;" value="Пациент" vertex="1">
+          <mxGeometry height="163" width="1394" x="38" as="geometry" />
+        </mxCell>
+        <mxCell id="s" parent="lane1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;symbol=general;fontSize=11;fontColor=#000000;outline=standard;strokeColor=#2E7D32;strokeWidth=2;" value="Пациентке ем қажет" vertex="1">
+          <mxGeometry height="40" width="40" x="102" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Тіркеушіге қоңырау шалып, жазылуды сұрау" vertex="1">
+          <mxGeometry height="105" width="155" x="199" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Белгіленген уақытта клиникаға келу" vertex="1">
+          <mxGeometry height="105" width="155" x="562" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="pool" style="swimlane;html=1;horizontal=0;startSize=45;whiteSpace=wrap;fillColor=#EEF1F5;swimlaneFillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;fontColor=#000000;collapsible=0;" value="Тіркеуші" vertex="1">
+          <mxGeometry height="309" width="1394" x="38" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Қағаз журналдан бос уақытты тексеру" vertex="1">
+          <mxGeometry height="105" width="155" x="199" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" parent="lane2" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;labelBackgroundColor=#ffffff;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#FFF2CC;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#000000;verticalLabelPosition=top;verticalAlign=bottom;" value="Бос уақыт бар ма?" vertex="1">
+          <mxGeometry height="72" width="72" x="422" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="t2b" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Пациентке басқа уақыт ұсыну" vertex="1">
+          <mxGeometry height="105" width="155" x="381" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Деректі қағаз картаға жазып, жазылымды тіркеу" vertex="1">
+          <mxGeometry height="105" width="155" x="562" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t5" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Қағаз картаны іздеп, дәрігерге беру" vertex="1">
+          <mxGeometry height="105" width="155" x="744" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t9" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Келесі жазылымды журналға тіркеу" vertex="1">
+          <mxGeometry height="105" width="155" x="1107" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="lane2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;symbol=general;fontSize=11;fontColor=#000000;outline=end;strokeColor=#C62828;" value="Процесс аяқталды" vertex="1">
+          <mxGeometry height="40" width="40" x="1319" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="pool" style="swimlane;html=1;horizontal=0;startSize=45;whiteSpace=wrap;fillColor=#EEF1F5;swimlaneFillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;fontColor=#000000;collapsible=0;" value="Тіс дәрігері" vertex="1">
+          <mxGeometry height="163" width="1394" x="38" y="472" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" parent="lane3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Тексеру, диагноз қою, емдеу жүргізу" vertex="1">
+          <mxGeometry height="105" width="155" x="744" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="t7" parent="lane3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Нәтижені қағаз картаға жазып, кассирге беру" vertex="1">
+          <mxGeometry height="105" width="155" x="926" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="lane4" parent="pool" style="swimlane;html=1;horizontal=0;startSize=45;whiteSpace=wrap;fillColor=#EEF1F5;swimlaneFillColor=#FFFFFF;strokeColor=#000000;fontStyle=1;fontSize=13;fontColor=#000000;collapsible=0;" value="Кассир" vertex="1">
+          <mxGeometry height="164" width="1394" x="38" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="t8" parent="lane4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFF8DC;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontColor=#000000;" value="Шотты қолмен жасап, төлем қабылдау" vertex="1">
+          <mxGeometry height="105" width="155" x="926" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" parent="lane4" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;labelBackgroundColor=#ffffff;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#FFF2CC;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#000000;verticalLabelPosition=bottom;verticalAlign=top;" value="Қайта қабылдау қажет пе?" vertex="1">
+          <mxGeometry height="72" width="72" x="1149" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="lane4" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;symbol=general;fontSize=11;fontColor=#000000;outline=end;strokeColor=#C62828;" value="Процесс аяқталды" vertex="1">
+          <mxGeometry height="40" width="40" x="1319" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="1" source="s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" edge="1" parent="1" source="t1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" edge="1" parent="1" source="t2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="g1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" edge="1" parent="1" source="g1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t3" value="Иә">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" edge="1" parent="1" source="g1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t2b" value="Жоқ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" edge="1" parent="1" source="t2b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7" edge="1" parent="1" source="t3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f8" edge="1" parent="1" source="t4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="879" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f9" edge="1" parent="1" source="t5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f10" edge="1" parent="1" source="t6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f11" edge="1" parent="1" source="t7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f12" edge="1" parent="1" source="t8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="g2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f13" edge="1" parent="1" source="g2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t9" value="Иә">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f14" edge="1" parent="1" source="t9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f15" edge="1" parent="1" source="g2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontStyle=1;fontSize=13;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e2" value="Жоқ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
