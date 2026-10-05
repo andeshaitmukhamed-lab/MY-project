@@ -8,4 +8,4 @@ Two way sync test
 1234567
 
 АЗА 
-
+АЗА
