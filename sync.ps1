@@ -1,24 +1,34 @@
 while ($true) {
     Write-Host ""
-    Write-Host "=== GitHub Auto Sync ===" -ForegroundColor Cyan
+    Write-Host "=== GitHub Two-Way Sync ===" -ForegroundColor Cyan
 
     git fetch origin
 
-    $status = git status --porcelain
+    $localChanges = git status --porcelain
+    $behind = git rev-list --count HEAD..origin/main
+    $ahead = git rev-list --count origin/main..HEAD
 
-    if (-not [string]::IsNullOrWhiteSpace($status)) {
-        Write-Host "Өзгеріс табылды. GitHub-қа жіберілуде..." -ForegroundColor Yellow
+    if (-not [string]::IsNullOrWhiteSpace($localChanges)) {
+        Write-Host "Zhergilikti ozgeris tabyldy. GitHub-ka jiberilude..." -ForegroundColor Yellow
 
         git add .
         git commit -m "Auto sync"
         git push origin main
 
-        Write-Host "GitHub-қа жіберілді!" -ForegroundColor Green
+        Write-Host "GitHub zhanartyldy!" -ForegroundColor Green
+    }
+    elseif ($behind -gt 0) {
+        Write-Host "GitHub-ta zhana ozgeris bar. Kompyuterge aly nuda..." -ForegroundColor Yellow
+
+        git pull --ff-only origin main
+
+        Write-Host "Kompyuter zhanartyldy!" -ForegroundColor Green
     }
     else {
-        Write-Host "Өзгеріс жоқ." -ForegroundColor Gray
+        Write-Host "Ozgeris zhok. Eki zhak sinkhrondaldy." -ForegroundColor Gray
     }
 
-    Write-Host "Келесі тексеріс 30 секундтан кейін..." -ForegroundColor DarkGray
+    Write-Host "Kelesi tekseris 30 sekundtan keyin..." -ForegroundColor DarkGray
+
     Start-Sleep -Seconds 30
 }
