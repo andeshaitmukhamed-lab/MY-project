@@ -30,5 +30,5 @@ while ($true) {
 
     Write-Host "Kelesi tekseris 30 sekundtan keyin..." -ForegroundColor DarkGray
 
-    Start-Sleep -Seconds 30
+    Start-Sleep -Seconds 5
 }
