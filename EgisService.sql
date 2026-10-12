@@ -233,9 +233,12 @@ SELECT * FROM Escrow_tolemder;
 SELECT * FROM Pikirler_haim_reiting;
 
 
-update Paiydalanyshylar
-set kupiya_soz = 'nurgul_222'
-where id = 8;
 
 
-delete
+
+
+
+
+
+insert into Tekhnika_kestesi (id, tehnika_id, kuni,bos_pa) values
+(16, 15,'2026-05-21',1);
