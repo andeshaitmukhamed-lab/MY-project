@@ -231,3 +231,8 @@ SELECT * FROM Brondau;
 SELECT * FROM Qr_rastau;
 SELECT * FROM Escrow_tolemder;
 SELECT * FROM Pikirler_haim_reiting;
+
+
+update Paiydalanyshylar
+set kupiya_soz = 'nurgul_222'
+where id = 8;
