@@ -5,7 +5,7 @@ create table Paiydalanyshylar (
     aty_jony varchar(100) not null,
     telefon varchar(20) not null,
     elektronik_poshta varchar(100),
-    kupiya_soz varchar(255) not null,
+    kupiya_soz varchar(250) not null,
     tirkelgen_uaqyty datetime
 );
 
@@ -47,7 +47,7 @@ create table Brondau (
 create table Qr_rastau (
     id int primary key,
     brondau_id int not null,
-    qr_token varchar(255) not null,
+    qr_token varchar(250) not null,
     kelgen_uaqyty datetime,
     ayaqtalgan_uaqyty datetime,
     statusy varchar(30) default 'kutu' check (statusy in ('kutu', 'jumys_bastaldy', 'jumys_ayaqtaldy')),
@@ -236,3 +236,6 @@ SELECT * FROM Pikirler_haim_reiting;
 update Paiydalanyshylar
 set kupiya_soz = 'nurgul_222'
 where id = 8;
+
+
+delete
